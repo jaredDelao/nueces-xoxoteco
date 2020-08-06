@@ -1,0 +1,159 @@
+@media only screen and (max-width:8000px){
+    .menu{
+        visibility: hidden;
+    }
+
+    body #three{
+        visibility: visible;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .about-us .contenedor article{
+        transform: translate(0px, 0);
+        position: relative;
+    }
+
+   
+
+}
+
+@media only screen and (max-width:770px){
+    .about-us .contenedor article h3{
+        font-size: 1.2em;
+    }
+
+    .about-us .contenedor article p{
+        font-size: .8em;
+    }
+
+    .info h1{
+        font-size: 1.6em;
+    }
+
+    .info h2{
+        font-size: 1.2em;
+    }
+
+    .info p{
+        font-size: .8em;
+    }
+
+    .container2{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    section .formulario h1{
+        font-size: 2.2em;
+    }
+
+    section .formulario .submit{
+        width: 15%;
+        font-size: .8em;
+    }
+
+    section .contact-form{
+        width: 70%;
+    }
+
+    .datos_footer h3{
+        font-size: 1em;
+        margin-top: 3%; 
+    }
+
+    .datos_footer p{
+        font-size: .8em;
+    }
+
+    body #exit{
+        background-size: 50%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .main .about-us article{
+        width: 60%;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:537px){
+
+    /*header .title h1{
+        font-size: 7em;
+        margin-top: -15%;
+    }*/
+    .main .about-us article{
+        width: 50%;
+    }
+
+    .main .about-us article h3{
+        font-size: 1em;
+    }
+
+    .main .about-us article p{
+        font-size: .6em;
+    }
+
+    section .formulario .submit{
+        width: 30%;
+        padding: 2px 20px;
+       
+    }
+
+    body #three{
+        top: 2.5%;
+        right: 4%;
+    }
+
+    body #three i{
+        font-size: 2em;
+    }
+    body .logo img{
+        width: 50%;
+    }
+
+    body .logo{
+        top: -40%;
+    }
+
+    body .title{
+        top: 65%;
+    }
+
+}
+
+@media only screen and (max-width:490px){
+
+    .main .about-us article{
+        width: 80%;
+        padding: 30px 30px;
+        background: rgba(255, 255, 255, 0.363);
+    }
+    body #exit{
+        background-size: 70%;
+    }
+
+}
+
+@media only screen and (max-width:363px){
+
+    .main .about-us article{
+        width: 80%;
+        padding: 30px 30px;
+        background: rgba(255, 255, 255, 0.363);
+    }
+
+    body .logo{
+        top: -40%;
+    }
+
+    body .title{
+        top: 50%;
+    }
+
+}

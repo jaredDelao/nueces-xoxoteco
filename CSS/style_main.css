@@ -1,0 +1,692 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Expletus Sans';
+    
+}
+
+body{
+    
+    font-family: 'Expletus Sans';
+   
+  
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+body .all{
+    background-color: #000;
+
+
+}
+.all button{
+    outline: none;
+}
+
+
+
+/*----------HEADER--------------*/
+
+header{
+    width: 100%;
+    background: url(../images/foot.jpeg) #281A0C;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+
+    z-index: 1;
+
+}
+
+header .contenedor{
+    position: relative;
+    height: 500px;
+}
+
+header .menu{
+    width: 100%;
+    text-align: right;
+
+    margin-left: 10%;
+    z-index: 2;
+    
+   
+   
+}
+
+header .menu a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 50px 20px;
+    
+
+    z-index: 10000;
+}
+
+header .menu a:hover{
+    color: #e4d422ea;
+}
+
+header .title{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+}
+
+header .title h1{
+    
+    font-size: 10em;
+    line-height: 60%;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+header i{
+    color: #fff;
+}
+
+
+header .title h3{
+    font-size: 3em;
+    /*padding-left: 30%;*/
+    text-align: center;
+}
+
+header .title p{
+    margin-top: 40px;
+    font-style: italic;
+
+    text-align: center;
+}
+
+
+/**------------MAIN----------------*/
+
+.redes_sociales{
+    position: fixed;
+    top: 40%;
+    margin-left: 1.5%;
+    z-index: 2000;
+}
+
+.redes_sociales .fb,
+.redes_sociales .instagram,
+.redes_sociales .linked{
+    border: 1px solid #df6c05;
+    
+    width: 100%;
+    padding: 8px 8px;
+    margin-bottom: 20%;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.redes_sociales .fb:hover{
+    border: 1px solid #3b5998;
+
+}
+.redes_sociales .instagram:hover{
+    border: 1px solid #bc2a8d;
+}
+.redes_sociales .linked:hover{
+    border: 1px solid #0077B5;
+}
+
+.redes_sociales .fb i:hover{
+    color: #3b5998;
+}
+.redes_sociales .instagram i:hover{
+    color: #bc2a8d;
+}
+.redes_sociales .linked i:hover{
+    color: #0077B5;
+}
+
+
+
+.redes_sociales a i{
+    color: #df6c05;
+}
+.main{
+    background: url(../images/spring.png);
+    background-repeat: repeat;
+}
+
+.main .image_top img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .about-us .contenedor{
+    overflow: visible;
+    position: relative;
+}
+
+.main .about-us .image_top{
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.7);
+
+}
+
+.main .about-us article{
+    background: #fff;
+    padding: 40px;
+    width: 45%;
+    position: relative;
+    top: 150px;
+    float: right;
+    z-index: 1;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.7);
+    
+}
+
+.main .about-us article h3{
+    margin-bottom: 5%;
+}
+
+.main .about-us article p{
+    text-align: justify;
+}
+
+.propiedades{
+    padding-top: 480px;
+    margin-bottom: 7%;
+    visibility: hidden;
+}
+
+/*.propiedades .contenedor-prop,
+.propiedades .contenedor-prop2{
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.propiedades .contenedor-prop2{
+    background: url(../images/ardilla.mp4);
+}
+
+.propiedades .titulo_propiedades{
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    
+}
+
+.propiedades .contenedor-prop2 article{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.propiedades .contenedor-prop3 article{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.propiedades .contenedor-prop2 img,
+.propiedades .contenedor-prop3 img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.propiedades .contenedor-prop2 .estructura{
+   margin-bottom:30px;
+   padding-bottom: 20px;
+   border-bottom: 4px dotted #000;
+   overflow: hidden;
+   
+}*/
+
+
+
+
+
+section .formulario{
+    background: url(../images/form.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+section .formulario H1{
+    margin-top: 7%;
+    font-size: 4em;
+    color: #ca7122 ;
+     
+    
+}
+
+section .contact-form{
+    display: block;
+    margin: 16px auto;
+    width: 40%;
+    padding: 5px 35px;
+    background-color: rgba(0,0,0,.75);
+    border: transparent;
+    color: #FFFDE7;
+    transition: .5s;
+    
+}
+
+section .contact-form:focus{
+    box-shadow: 0 0 10px 4px #281A0C;
+}
+
+section textarea{
+    resize: none;
+}
+
+section .formulario .submit{
+    color: white;
+    background: #ca7122;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.formulario .line{
+    width: 100px;
+    background: #ca7122;
+    text-align: center;
+    height: 7px;
+    margin: 35px auto;
+}
+
+.formulario input::placeholder{
+    color: #fff;
+}
+
+
+
+
+.container1{
+    /*width: 50%;*/
+   /* height: 800px;*/
+    background: url(../images/nut_info2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5% 5%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    box-shadow: 0 0 15px #000;
+    border-radius: 15px;
+    transition: all 3s ease-in-out;
+}
+
+.container2{
+    /*width: 50%;
+    height: 800px;*/
+    background: url(../images/info_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5% 5%;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    box-shadow: 0 0 15px #000;
+    position: relative;
+    margin-top: -8%;
+    border-radius: 15px;
+    transition: all 4s ease-in-out;
+}
+
+.container1:hover{
+    
+    /*background: url(../images/nut_info3.jpg);*/
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: all 3s ease-in-out;
+    /*animation-name: container_one;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    animation-direction: alternate-reverse;*/
+
+}
+
+
+.container2:hover{
+    
+    
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    /*animation-name: container_two;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;*/
+    transition: all 4s ease-in-out;
+    -moz-transition: all 4s ease-in-out;
+    -o-transition: all 4s ease-in-out;
+    -webkit-transition: all 4s ease-in-out;
+    -ms-transition: all 4s ease-in-out;
+    /*animation-direction: alternate;*/
+
+}
+
+/*@keyframes container_one{
+    from{
+        background: url(../images/nut_info2.jpg);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to{
+        background: url(../images/nut_info3.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes container_two{
+    from{
+        background: url(../images/info_2.png);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to{
+        background: url(../images/info_1.png);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}*/
+
+
+
+
+
+
+.container1 span,
+.container1 h1,
+.container1 p, .container2 span,
+.container2 h1,
+.container2 p,
+.container1 li,
+.container2 li{
+    color: white;
+}
+
+.container1 h1{
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.container1 .info .titles,
+.container2 .info .titles{
+    font-weight: bold;
+}
+
+.container1 p,
+.container2 p{
+    font-weight: lighter;
+    margin-bottom: 1.4%;
+    font-size: 1em;
+}
+
+
+
+.container1 .info{
+    margin-bottom: 20%; 
+}
+
+
+/*--------- FOOTER---------*/
+
+
+.datos_footer{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.datos_footer h3{
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+.datos_footer a{
+    color: white;
+
+}
+
+.mapa iframe{
+    border-radius: 20px;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.container-fluid{
+    overflow: hidden;
+    background-image: url(../images/textures/zig.png);
+    background-attachment: fixed;
+    background-color: #000;
+}
+
+
+/* --------menu-----*/
+
+
+
+
+
+
+
+
+
+body #exit{
+    
+    position: absolute;
+    top: 5%;
+    right: 5%; 
+    border: none;
+    background: url(../images/tache.png);
+    background-size: 30%;
+    background-repeat:no-repeat; 
+    cursor: pointer;
+    z-index: 99999;
+    width: 8%;
+    height: 150px;
+    
+}
+
+body #three{
+    position: fixed;
+    color: white;
+    right: 5.5%;
+    top: 6%;
+    transition: all 1s ease-out;
+    opacity: 1;
+    border: none;
+    background: transparent;
+    cursor: pointer;  
+    z-index: 99;
+}
+
+body #three i{
+    font-size: 3em;
+    color: #ca7122;
+    
+}
+
+body .logo img{
+    width: 20%;
+    text-align: center;
+    
+}
+
+body .logo{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -12%;
+    
+    
+}
+
+
+body #four{
+    width: 11%;
+    position: fixed;
+    left: -0.4%;
+    top: 6%;
+    opacity: 0;
+    transition: all 5s ease-out;
+   
+}
+
+
+
+body #resize{
+    z-index: 100;
+    padding-top: 10%;
+    position: fixed;
+    background:  rgba(66, 31, 1, .98);
+    width: 100%;
+    height: 100vh;
+    top: -110%;
+    display: table;
+    
+}
+
+#resize #menu{
+    height: 50px;
+    display: table-cell;
+    vertical-align: center;
+}
+
+#resize #menu li{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    min-height: 50px;
+    font-weight: 200;
+    
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;  
+}
+
+#resize #menu a{
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+
+#resize #menu li a:hover{
+    color: #ca6f1e;
+}
+
+#resize #menu li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/*----LOADER----*/
+
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    overflow: visible;
+    background: #FFFDE7 url(../images/loader_lento.gif) no-repeat center center;
+}
+
+.all #resize #menu .contact{
+    text-align: center;
+    color: white;
+    margin-top: 6%;
+
+}
+
+
+
+.all #resize #menu .contact a:hover{
+    animation-name: escribenos;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -webkit-animation-name: escribenos;
+    -moz-animation-name: escribenos;
+}
+
+.all #resize #menu .contact a{
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid  #cb4335 ;
+    text-decoration: none;
+    background-color:  #cb4335;
+    transition: 2s;
+
+}
+
+
+@keyframes escribenos{
+    from{background-color: #cb4335; }
+    to{background-color: transparent; border: 1.2px solid  white; color: white;}
+}
+
+@-webkit-keyframes escribenos{
+    from{background-color: #cb4335; }
+    to{background-color: transparent; border: 1.2px solid  white; color: white;}
+}
+
+
+body .nuez{
+    position: absolute;
+    width: 6%;
+    height: 30px;
+    top: 4%;
+    left: 5%;
+}
+
+body .nuez img{
+    width: 100%;
+}
